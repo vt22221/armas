@@ -1,0 +1,53 @@
+<meta>
+    <info author="ForgeX Team" version="1.0" name="ForgeX Weapons NextGen" type="script" description="Sistema modular de skins, battlepass, badges, stickers, crafting e inventário premium para MTA." />
+    <script src="fxw_server/config.lua" type="server"/>
+    <script src="fxw_server/core.lua" type="server"/>
+    <script src="fxw_server/weaponsystem.lua" type="server"/>
+    <script src="fxw_server/lootbox.lua" type="server"/>
+    <script src="fxw_server/marketplace.lua" type="server"/>
+    <script src="fxw_server/badges.lua" type="server"/>
+    <script src="fxw_server/stickers.lua" type="server"/>
+    <script src="fxw_server/battlepass.lua" type="server"/>
+    <script src="fxw_server/progression.lua" type="server"/>
+    <script src="fxw_server/crafting.lua" type="server"/>
+    <script src="fxw_server/tickets.lua" type="server"/>
+    <script src="fxw_server/admin.lua" type="server"/>
+
+    <script src="fxw_client/ui_main.lua" type="client"/>
+    <script src="fxw_client/ui_inventory.lua" type="client"/>
+    <script src="fxw_client/ui_marketplace.lua" type="client"/>
+    <script src="fxw_client/ui_lootbox.lua" type="client"/>
+    <script src="fxw_client/ui_battlepass.lua" type="client"/>
+    <script src="fxw_client/ui_badges.lua" type="client"/>
+    <script src="fxw_client/ui_stickers.lua" type="client"/>
+    <script src="fxw_client/ui_crafting.lua" type="client"/>
+    <script src="fxw_client/ui_notify.lua" type="client"/>
+    <script src="fxw_client/ui_tickets.lua" type="client"/>
+    <script src="fxw_client/blips_markers_client.lua" type="client"/>
+    <script src="fxw_client/weapon_visuals.lua" type="client"/>
+    <script src="fxw_client/sound.lua" type="client"/>
+
+    <file src="img/item_default.png"/>
+    <file src="img/skins/*.png"/>
+    <file src="img/stickers/*.png"/>
+    <file src="img/badges/*.png"/>
+    <file src="img/cases/*.png"/>
+    <file src="img/ui/*.png"/>
+    <file src="models/*"/>
+    <file src="sounds/*"/>
+    <file src="fxw_data/battlepass.json"/>
+    <file src="fxw_data/badges.json"/>
+    <file src="fxw_data/stickers.json"/>
+    <file src="fxw_data/crafting.json"/>
+    <file src="fxw_data/weapons.json"/>
+    <file src="fxw_data/cases.json"/>
+    <file src="fxw_data/*.json"/>
+
+    <export function="fxwGiveItem" type="server"/>
+    <export function="fxwAddVIPFunds" type="server"/>
+    <export function="fxwHasBadge" type="server"/>
+    <export function="fxwGrantBadge" type="server"/>
+    <export function="fxwGiveSticker" type="server"/>
+    <export function="fxwCraft" type="server"/>
+    <export function="fxwCanCraft" type="server"/>
+</meta>

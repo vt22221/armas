@@ -1,0 +1,7 @@
+[
+    {"id":"badge_kill10", "name":"10 Kills", "stat":"kills", "value":10},
+    {"id":"badge_kill100", "name":"100 Kills", "stat":"kills", "value":100},
+    {"id":"badge_case5", "name":"5 Caixas", "stat":"cases", "value":5},
+    {"id":"badge_craft1", "name":"Primeiro Craft", "stat":"crafting", "value":1},
+    {"id":"bp_season1", "name":"BP S1", "stat":"bp_tier", "value":4}
+]

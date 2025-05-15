@@ -1,0 +1,20 @@
+{
+  "weapons": {
+    "24": { "name": "Desert Eagle", "model": "models/deagle.dff", "txd": "models/deagle.txd", "defaultPaint": "default" },
+    "31": { "name": "M4", "model": "models/m4.dff", "txd": "models/m4.txd", "defaultPaint": "default" }
+  },
+  "attachments": {
+    "silenciador": { "desc": "Silenciador", "slot": "muzzle", "model": "models/silencer.dff", "txd": "models/silencer.txd" },
+    "scope": { "desc": "Mira 2x", "slot": "scope", "model": "models/scope.dff", "txd": "models/scope.txd" },
+    "grip": { "desc": "Grip", "slot": "grip", "model": "models/grip.dff", "txd": "models/grip.txd" },
+    "lanterna": { "desc": "Lanterna", "slot": "side", "model": "models/lanterna.dff", "txd": "models/lanterna.txd" }
+  },
+  "paints": {
+    "default": { "desc": "Padrão", "tier": "comum" },
+    "fosca": { "desc": "Fosca", "tier": "comum" },
+    "ouro": { "desc": "Ouro", "tier": "rara" },
+    "neon": { "desc": "Neon", "tier": "rara", "shader": "paint_neon.fx", "anim": true },
+    "inferno": { "desc": "Inferno", "tier": "lendaria", "shader": "paint_inferno.fx", "anim": true },
+    "gelo": { "desc": "Gelo", "tier": "epica", "shader": "paint_gelo.fx", "anim": true }
+  }
+}

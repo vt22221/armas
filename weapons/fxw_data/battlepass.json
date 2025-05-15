@@ -1,0 +1,10 @@
+{
+  "tiers": [
+    { "xp": 100, "reward": { "type": "skin", "value": "ouro" } },
+    { "xp": 200, "reward": { "type": "lootbox", "value": "premium" } },
+    { "xp": 300, "reward": { "type": "sticker", "value": "skull" } },
+    { "xp": 400, "reward": { "type": "badge", "value": "battlepass1" } }
+  ],
+  "season_end": "2025-09-30",
+  "season_name": "Fogo & Gelo"
+}

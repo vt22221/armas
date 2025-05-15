@@ -1,0 +1,13 @@
+[
+  {
+    "tokenId": "0xabc123",
+    "skinId": "neon",
+    "owner": "Player#0001",
+    "history": [
+      {"event": "minted", "date": "2025-05-14", "by": "Player#0001"},
+      {"event": "sold",   "date": "2025-05-15", "by": "Player#0001", "to": "Player#1234"}
+    ],
+    "blockchain": "ethereum",
+    "tx": "0xdeadbeef"
+  }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "id":"rainbow",
+        "name":"Skin Rainbow",
+        "requires":[
+            {"type":"skin","id":"neon","count":1},
+            {"type":"skin","id":"ouro","count":1},
+            {"type":"fragment","id":"fragmento","count":2}
+        ],
+        "result":{"type":"skin","id":"rainbow"}
+    },
+    {
+        "id":"badge_crafter",
+        "name":"Badge Crafter",
+        "requires":[
+            {"type":"skin","id":"ouro","count":1},
+            {"type":"mod","id":"grip","count":1},
+            {"type":"fragment","id":"fragmento","count":5}
+        ],
+        "result":{"type":"badge","id":"badge_crafter"}
+    }
+]
